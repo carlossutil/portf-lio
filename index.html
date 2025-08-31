@@ -4,20 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Meu Portifólio</title>
+    <title>Carlos Augusto Sutil - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Carlos Augusto Sutil</h1>
-    <img src="Carlos.png" alt="Foto De Perfil">
-    <p> Meu nome é Carlos, tenho 16 anos, gosto de estudar, tenho um objetivo de me formar em medicina ou algo da area da saúde, sou extrovertido, animado e organizado.</p>
-    <h3>Meus Hobbies</h3>
-    <ul>
-        <li>Academia</li>
-        <li>Estudar</li>
-        <li>Viajar</li>
-        <li>Dirigir</li>
-    </ul>
-    <h3>Conecte-se Comigo</h3>
-    <a href="#">instragram</a>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>Portfólio</h2>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="Carlos.png" alt="Foto de perfil profissional de Carlos Augusto Sutil, jovem de 16 anos com sorriso amigável, usando roupa casual elegante" class="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Carlos Augusto Sutil</h1>
+                    <p class="hero-subtitle">Estudante | Futuro Profissional da Saúde</p>
+                    <p class="hero-description">
+                        Meu nome é Carlos, tenho 16 anos, gosto de estudar, tenho um objetivo de me formar em medicina ou algo da área da saúde, sou extrovertido, animado e organizado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies-section">
+            <div class="section-header">
+                <h2>Meus Hobbies</h2>
+                <p>Atividades que me inspiram e mantêm motivado</p>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Academia</h3>
+                    <p>Manter o corpo e a mente saudáveis através do exercício físico regular</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Estudar</h3>
+                    <p>Dedicar tempo ao aprendizado contínuo e desenvolvimento intelectual</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Viajar</h3>
+                    <p>Explorar novos lugares, culturas e experiências pelo mundo</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Dirigir</h3>
+                    <p>Apreciar a liberdade e responsabilidade de conduzir veículos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="section-header">
+                <h2>Conecte-se Comigo</h2>
+                <p>Vamos conversar sobre oportunidades e experiências</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Carlos Augusto Sutil. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
